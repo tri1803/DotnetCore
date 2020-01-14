@@ -1,0 +1,57 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Demo/Demo.Service/Demo.Service.csproj",
+    "projectName": "Demo.Service",
+    "projectPath": "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Demo/Demo.Service/Demo.Service.csproj",
+    "outputPath": "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Demo/Demo.Service/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Demo/Demo.Common/Demo.Common.csproj": {
+            "projectPath": "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Demo/Demo.Common/Demo.Common.csproj"
+          },
+          "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Demo/Demo.Dto/Demo.Dto.csproj": {
+            "projectPath": "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Demo/Demo.Dto/Demo.Dto.csproj"
+          },
+          "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Demo/Demo.Repository/Demo.Repository.csproj": {
+            "projectPath": "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Demo/Demo.Repository/Demo.Repository.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[9.0.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

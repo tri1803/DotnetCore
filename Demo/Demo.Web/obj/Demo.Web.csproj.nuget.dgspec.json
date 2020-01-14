@@ -1,0 +1,204 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Web/Demo.Web.csproj": {}
+  },
+  "projects": {
+    "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Model/Demo.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Model/Demo.Model.csproj",
+        "projectName": "Demo.Model",
+        "projectPath": "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Model/Demo.Model.csproj",
+        "packagesPath": "/home/local/3SI/tri.nv/.nuget/packages/",
+        "outputPath": "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Model/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/local/3SI/tri.nv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Repository/Demo.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Repository/Demo.Repository.csproj",
+        "projectName": "Demo.Repository",
+        "projectPath": "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Repository/Demo.Repository.csproj",
+        "packagesPath": "/home/local/3SI/tri.nv/.nuget/packages/",
+        "outputPath": "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Repository/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/local/3SI/tri.nv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Model/Demo.Model.csproj": {
+                "projectPath": "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Model/Demo.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Web/Demo.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Web/Demo.Web.csproj",
+        "projectName": "Demo.Web",
+        "projectPath": "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Web/Demo.Web.csproj",
+        "packagesPath": "/home/local/3SI/tri.nv/.nuget/packages/",
+        "outputPath": "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Web/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/local/3SI/tri.nv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Model/Demo.Model.csproj": {
+                "projectPath": "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Model/Demo.Model.csproj"
+              },
+              "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Repository/Demo.Repository.csproj": {
+                "projectPath": "/home/local/3SI/tri.nv/Documents/DesignPartten/Demo/Demo.Repository/Demo.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
