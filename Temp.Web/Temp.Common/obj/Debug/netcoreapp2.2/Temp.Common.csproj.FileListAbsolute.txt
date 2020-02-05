@@ -1,0 +1,13 @@
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Common/bin/Debug/netcoreapp2.2/Temp.Common.deps.json
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Common/bin/Debug/netcoreapp2.2/Temp.Common.dll
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Common/bin/Debug/netcoreapp2.2/Temp.Common.pdb
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.csprojAssemblyReference.cache
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.Resources.CommonResource.resources
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.Resources.MessageResource.resources
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.Resources.SideBar.resources
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.csproj.GenerateResource.cache
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.csproj.CoreCompileInputs.cache
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.AssemblyInfoInputs.cache
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.AssemblyInfo.cs
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.dll
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.pdb

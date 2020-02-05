@@ -1,0 +1,72 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Web/Temp.Web.csproj",
+    "projectName": "Temp.Web",
+    "projectPath": "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Web/Temp.Web.csproj",
+    "outputPath": "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Web/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Common/Temp.Common.csproj": {
+            "projectPath": "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Common/Temp.Common.csproj"
+          },
+          "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.DataAccess/Temp.DataAccess.csproj": {
+            "projectPath": "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.DataAccess/Temp.DataAccess.csproj"
+          },
+          "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Service/Temp.Service.csproj": {
+            "projectPath": "/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Service/Temp.Service.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "AutoMapper": {
+          "target": "Package",
+          "version": "[9.0.0, )"
+        },
+        "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+          "target": "Package",
+          "version": "[7.0.0, )"
+        },
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.AspNetCore.Razor.Design": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Service/bin/Debug/netcoreapp2.2/Temp.Service.deps.json
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Service/bin/Debug/netcoreapp2.2/Temp.Service.dll
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Service/bin/Debug/netcoreapp2.2/Temp.Service.pdb
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Service/bin/Debug/netcoreapp2.2/Temp.Common.dll
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Service/bin/Debug/netcoreapp2.2/Temp.DataAccess.dll
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Service/bin/Debug/netcoreapp2.2/Temp.Common.pdb
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Service/bin/Debug/netcoreapp2.2/Temp.DataAccess.pdb
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.csprojAssemblyReference.cache
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.csproj.CoreCompileInputs.cache
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.AssemblyInfoInputs.cache
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.AssemblyInfo.cs
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.csproj.CopyComplete
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.dll
+/home/local/3SI/tri.nv/Documents/intern-2019-03-049/Temp.Web/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.pdb

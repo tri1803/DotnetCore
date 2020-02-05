@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95399793-0b93-4bdf-8536-5b632a50965c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Temp.Service/BaseService/IBaseService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temp.Service/Service/IBaseService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Temp.Web/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Temp.Web/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Temp.Web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Temp.Web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Common/bin/Debug/netcoreapp2.2/Temp.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Common/bin/Debug/netcoreapp2.2/Temp.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Common/bin/Debug/netcoreapp2.2/Temp.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Common/bin/Debug/netcoreapp2.2/Temp.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Common/obj/Debug/netcoreapp2.2/Temp.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.DataAccess/bin/Debug/netcoreapp2.2/Temp.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.DataAccess/bin/Debug/netcoreapp2.2/Temp.DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.DataAccess/bin/Debug/netcoreapp2.2/Temp.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.DataAccess/bin/Debug/netcoreapp2.2/Temp.DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.DataAccess/obj/Debug/netcoreapp2.2/Temp.DataAccess.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.DataAccess/obj/Debug/netcoreapp2.2/Temp.DataAccess.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.DataAccess/obj/Debug/netcoreapp2.2/Temp.DataAccess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.DataAccess/obj/Debug/netcoreapp2.2/Temp.DataAccess.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.DataAccess/obj/Debug/netcoreapp2.2/Temp.DataAccess.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.DataAccess/obj/Debug/netcoreapp2.2/Temp.DataAccess.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.DataAccess/obj/Debug/netcoreapp2.2/Temp.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.DataAccess/obj/Debug/netcoreapp2.2/Temp.DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.DataAccess/obj/Debug/netcoreapp2.2/Temp.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.DataAccess/obj/Debug/netcoreapp2.2/Temp.DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Service/bin/Debug/netcoreapp2.2/Temp.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Service/bin/Debug/netcoreapp2.2/Temp.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Service/bin/Debug/netcoreapp2.2/Temp.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Service/bin/Debug/netcoreapp2.2/Temp.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Service/bin/Debug/netcoreapp2.2/Temp.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Service/bin/Debug/netcoreapp2.2/Temp.DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Service/bin/Debug/netcoreapp2.2/Temp.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Service/bin/Debug/netcoreapp2.2/Temp.DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Service/bin/Debug/netcoreapp2.2/Temp.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Service/bin/Debug/netcoreapp2.2/Temp.Service.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Service/bin/Debug/netcoreapp2.2/Temp.Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Service/bin/Debug/netcoreapp2.2/Temp.Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Service/obj/Debug/netcoreapp2.2/Temp.Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/Infrastructure/Mapper/UserMapping.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/Infrastructure/Mapper/UserMapping.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/Temp.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/Temp.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/Views/Account/ChangePass.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/Views/Account/ChangePass.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/Views/Account/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/Views/Account/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/Views/Account/LogIn.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/Views/Account/LogIn.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/Views/Category/Save.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/Views/Category/Save.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/Views/Home/Privacy.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/Views/Shared/_CookieConsentPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/Views/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/Views/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/Views/_ViewStart.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.Service.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.Service.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.Service.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.Service.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.Web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.Web.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.Web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.Web.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Razor/Views/Account/ChangePass.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Razor/Views/Account/ChangePass.g.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Razor/Views/Category/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Razor/Views/Category/Index.g.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_AdminLayout.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_AdminLayout.g.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Temp.Web.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Temp.Web.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Temp.Web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Temp.Web.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Temp.Web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Temp.Web.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Temp.Web.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Temp.Web.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Temp.Web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Temp.Web.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Temp.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Temp.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Temp.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Temp.Web.pdb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="IBaseService.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Temp.Service/Service/IBaseService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <folding>
+                <marker date="1580869049172" expanded="true" signature="30:89" ph="{...}" />
+                <marker date="1580869049172" expanded="true" signature="66:87" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IRepository.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Temp.DataAccess/Repository/IRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="41" column="64" selection-start-line="10" selection-start-column="8" selection-end-line="41" selection-end-column="64" />
+              <folding>
+                <marker date="1579490096031" expanded="false" signature="6:127" ph="..." />
+                <marker date="1579490096031" expanded="true" signature="165:1138" ph="{...}" />
+                <marker date="1579490096031" expanded="true" signature="219:1136" ph="{...}" />
+                <marker date="1579490096031" expanded="true" signature="234:328" ph="/// region method ... " />
+                <marker date="1579490096031" expanded="true" signature="838:987" ph="/// region async method ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IUnitofWork.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Temp.DataAccess/UoW/IUnitofWork.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <marker date="1579491876152" expanded="false" signature="6:63" ph="..." />
+                <marker date="1579491876152" expanded="true" signature="94:490" ph="{...}" />
+                <marker date="1579491876152" expanded="true" signature="101:164" ph="/// unit of work interface ... " />
+                <marker date="1579491876152" expanded="true" signature="197:488" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnitofWork.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Temp.DataAccess/UoW/UnitofWork.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1580781970792" expanded="false" signature="6:63" ph="..." />
+                <marker date="1580781970792" expanded="true" signature="94:1799" ph="{...}" />
+                <marker date="1580781970792" expanded="true" signature="101:154" ph="/// Unit of work ... " />
+                <marker date="1580781970792" expanded="true" signature="196:1797" ph="{...}" />
+                <marker date="1580781970792" expanded="true" signature="564:624" ph="{...}" />
+                <marker date="1580781970792" expanded="true" signature="679:857" ph="{...}" />
+                <marker date="1580781970792" expanded="true" signature="705:847" ph="{...}" />
+                <marker date="1580781970792" expanded="true" signature="913:1091" ph="{...}" />
+                <marker date="1580781970792" expanded="true" signature="939:1081" ph="{...}" />
+                <marker date="1580781970792" expanded="true" signature="1154:1344" ph="{...}" />
+                <marker date="1580781970792" expanded="true" signature="1180:1334" ph="{...}" />
+                <marker date="1580781970792" expanded="true" signature="1405:1592" ph="{...}" />
+                <marker date="1580781970792" expanded="true" signature="1431:1582" ph="{...}" />
+                <marker date="1580781970792" expanded="true" signature="1620:1680" ph="{...}" />
+                <marker date="1580781970792" expanded="true" signature="1719:1791" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IBaseService.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Temp.Service/BaseService/IBaseService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+              <folding>
+                <marker date="1580869707907" expanded="true" signature="6:127" ph="..." />
+                <marker date="1580869707907" expanded="true" signature="163:1249" ph="{...}" />
+                <marker date="1580869707907" expanded="true" signature="170:277" ph="/// Interface of base service ... " />
+                <marker date="1580869707907" expanded="true" signature="330:1247" ph="{...}" />
+                <marker date="1580869707907" expanded="true" signature="345:439" ph="/// region method ... " />
+                <marker date="1580869707907" expanded="true" signature="949:1098" ph="/// region async method ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Temp.Common/Infrastructure/AppEnum.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Common/Infrastructure/Helpers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Common/Infrastructure/Constants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Web/Views/Account/Create.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Common/Infrastructure/Notification.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Common/Infrastructure/DateTimeHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.DataAccess/Repository/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Service/DTO/CreateAccDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Common/Infrastructure/ObjectExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.DataAccess/Repository/Repository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Common/Infrastructure/StringExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Common/Infrastructure/SessionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.DataAccess/Repository/IRoleRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.DataAccess/Repository/RoleRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.DataAccess/Repository/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Common/Infrastructure/EnumerableExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.DataAccess/Repository/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Common/Infrastructure/LocalizationAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.DataAccess/Repository/ICategoryRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.DataAccess/Repository/CategoryRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.DataAccess/Repository/IProductRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.DataAccess/Repository/ProductRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.DataAccess/UoW/IUnitofWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.DataAccess/UoW/UnitofWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Service/BaseService/IBaseService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_AdminLayout.g.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Common/Resources/MessageResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Common/Resources/CommonResource.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Common/Resources/MessageResource.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Common/Resources/SideBar.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Common/Resources/CommonResource.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Service/Service/IBaseService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.DataAccess/Data/Role.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.DataAccess/Data/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.DataAccess/Data/Category.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.DataAccess/Data/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.DataAccess/Data/DataContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Web/Views/Shared/_AdminLayout.cshtml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Web/Views/Account/LogIn.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Web/Infrastructure/Mapper/UserMapping.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Service/DTO/LogInDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Service/Service/IAccountService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Web/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Service/Service/AccountService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Web/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Web/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Web/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Web/Views/Category/Save.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Web/Infrastructure/Mapper/CategoryMapping.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Service/DTO/CategoryDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Web/Views/Category/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Web/Controllers/CategoryController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Service/Service/CategoryService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Service/Service/ICategoryService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/60817C40-31A4-4E25-ACCF-5B4B8AA8E7A6/b2/2b483525/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Service/DTO/ChangePassDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Web/Views/Account/ChangePass.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/60817C40-31A4-4E25-ACCF-5B4B8AA8E7A6/fc/8ace3889/Thread.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Web/Views/Admin/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp.Web/Controllers/AdminController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Temp.Service/DTO/LogInDto.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Class1.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Resources/MessageResource.Designer.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Resources/SideBar.Designer.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Resources/CommonResource.Designer.cs" />
+        <option value="$PROJECT_DIR$/Temp.Web/Controllers/AdminController.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Infrastructure/ActiveRouteTagHelper.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Infrastructure/DateTimeHelper.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Infrastructure/Encryptor.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Infrastructure/EnumerableExtensions.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Infrastructure/EnumHelper.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Infrastructure/Helpers.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Infrastructure/HtmlExtensions.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Infrastructure/LanguageManager.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Infrastructure/LocalizationAttribute.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Infrastructure/Notification.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Infrastructure/ObjectExtensions.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Infrastructure/SessionExtensions.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Infrastructure/StringExtensions.cs" />
+        <option value="$PROJECT_DIR$/Temp.Service/DTO/CreateAccDto.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Infrastructure/AppEnum.cs" />
+        <option value="$PROJECT_DIR$/Temp.Service/Service/IAccountService.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Resources/MessageResource.resx" />
+        <option value="$PROJECT_DIR$/Temp.Common/Resources/CommonResource.resx" />
+        <option value="$PROJECT_DIR$/Temp.Web/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/Temp.Web/Models/ErrorViewModel.cs" />
+        <option value="$PROJECT_DIR$/Temp.Web/Program.cs" />
+        <option value="$PROJECT_DIR$/Temp.Web/Views/Admin/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Temp.Service/DTO/CategoryDto.cs" />
+        <option value="$PROJECT_DIR$/Temp.Service/Service/ICategoryService.cs" />
+        <option value="$PROJECT_DIR$/Temp.Web/Infrastructure/Mapper/CategoryMapping.cs" />
+        <option value="$PROJECT_DIR$/Temp.Service/Service/CategoryService.cs" />
+        <option value="$PROJECT_DIR$/Temp.Web/Controllers/CategoryController.cs" />
+        <option value="$PROJECT_DIR$/Temp.Web/Views/Shared/_AdminLayout.cshtml" />
+        <option value="$PROJECT_DIR$/Temp.DataAccess/Repository/Repository.cs" />
+        <option value="$PROJECT_DIR$/Temp.Web/Controllers/AccountController.cs" />
+        <option value="$PROJECT_DIR$/Temp.Service/DTO/ChangePassDto.cs" />
+        <option value="$PROJECT_DIR$/Temp.Web/Infrastructure/Mapper/UserMapping.cs" />
+        <option value="$PROJECT_DIR$/Temp.Service/Service/AccountService.cs" />
+        <option value="$PROJECT_DIR$/Temp.Web/Startup.cs" />
+        <option value="$PROJECT_DIR$/Temp.Common/Infrastructure/Constants.cs" />
+        <option value="$PROJECT_DIR$/Temp.Web/Views/Category/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Temp.Web/Views/Category/Save.cshtml" />
+        <option value="$PROJECT_DIR$/Temp.Web/Views/Account/ChangePass.cshtml" />
+        <option value="$PROJECT_DIR$/Temp.Web/Views/Account/Create.cshtml" />
+        <option value="$PROJECT_DIR$/Temp.Web/Views/Account/LogIn.cshtml" />
+        <option value="$PROJECT_DIR$/Temp.Web/Views/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/Temp.Web/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Temp.Web/Views/_ViewStart.cshtml" />
+        <option value="$PROJECT_DIR$/Temp.Service/Service/IBaseService.cs" />
+        <option value="$PROJECT_DIR$/Temp.Service/BaseService/IBaseService.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="387" />
+    <option name="y" value="203" />
+    <option name="width" value="917" />
+    <option name="height" value="789" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Temp.Web (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Temp.Web (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Temp.DataAccess" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Temp.Web (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Temp.DataAccess" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Repository" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Temp.Web (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Temp.DataAccess" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="UoW" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Temp.Web (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Temp.Service" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Temp.Web (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Temp.Service" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="BaseService" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Temp.Service/BaseService" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Temp.Web/bin/Debug/netcoreapp2.2/Temp.Web.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Temp.Web" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="https://localhost:5001;http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Temp.Web/Temp.Web.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.2" />
+      <browser start="true" url="https://localhost:5001" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95399793-0b93-4bdf-8536-5b632a50965c" name="Default" comment="" />
+      <created>1579486443512</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579486443512</updated>
+      <workItem from="1579486457902" duration="13231000" />
+      <workItem from="1579505164288" duration="671000" />
+      <workItem from="1579506017922" duration="9314000" />
+      <workItem from="1579572812928" duration="10043000" />
+      <workItem from="1579587838362" duration="10922000" />
+      <workItem from="1580350519097" duration="1777000" />
+      <workItem from="1580354423371" duration="13849000" />
+      <workItem from="1580436617472" duration="4715000" />
+      <workItem from="1580442167190" duration="4328000" />
+      <workItem from="1580453038272" duration="2912000" />
+      <workItem from="1580457154529" duration="2947000" />
+      <workItem from="1580710758908" duration="558000" />
+      <workItem from="1580782176291" duration="6521000" />
+      <workItem from="1580791292085" duration="270000" />
+      <workItem from="1580796547835" duration="2509000" />
+      <workItem from="1580801776145" duration="1308000" />
+      <workItem from="1580868712697" duration="953000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="86828000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32998884" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32998884" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32998884" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1793027" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32982844" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32998884" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32998884" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15827338" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Unit Tests" order="10" />
+      <window_info anchor="bottom" id="REST Client" order="11" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32998884" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32998884" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32982844" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="20" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Temp.Common/Infrastructure/SessionExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Controllers/AdminController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Service/DTO/CreateAccDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Common/Resources/MessageResource.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="150" column="19" selection-start-line="150" selection-start-column="19" selection-end-line="150" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Common/Resources/CommonResource.resx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="248" column="17" selection-start-line="248" selection-start-column="17" selection-end-line="248" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/60817C40-31A4-4E25-ACCF-5B4B8AA8E7A6/b2/2b483525/ExecutionContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/60817C40-31A4-4E25-ACCF-5B4B8AA8E7A6/fc/8ace3889/Thread.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Controllers/HomeController.cs" />
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Program.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Common/Infrastructure/StringExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="172" column="68" selection-start-line="172" selection-start-column="68" selection-end-line="172" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Common/Infrastructure/Helpers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Common/Infrastructure/DateTimeHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="285" column="66" selection-start-line="285" selection-start-column="66" selection-end-line="285" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Service/DTO/CategoryDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Service/Service/ICategoryService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Infrastructure/Mapper/CategoryMapping.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Service/DTO/LogInDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Views/Shared/_AdminLayout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="320" column="7" lean-forward="true" selection-start-line="320" selection-start-column="7" selection-end-line="320" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Properties/launchSettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.DataAccess/Repository/Repository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Service/Service/IAccountService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Service/DTO/ChangePassDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Infrastructure/Mapper/UserMapping.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.DataAccess/Data/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="78" column="104" selection-start-line="78" selection-start-column="104" selection-end-line="78" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Common/Infrastructure/AppEnum.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Common/Infrastructure/Constants.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="154" column="9" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Controllers/AccountController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="65" column="67" selection-start-line="65" selection-start-column="67" selection-end-line="65" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Controllers/CategoryController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Service/Service/AccountService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Service/Service/CategoryService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Views/Account/ChangePass.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Views/Home/Privacy.cshtml" />
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Views/Home/Index.cshtml" />
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Views/Category/Save.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Views/Account/LogIn.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Views/Account/Create.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Views/Category/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Views/Admin/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Models/ErrorViewModel.cs" />
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Views/Shared/_CookieConsentPartial.cshtml" />
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Views/Shared/_Layout.cshtml" />
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Views/_ViewImports.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+          <folding>
+            <marker date="1580802411959" expanded="false" signature="76:116" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.DataAccess/Repository/IRoleRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1579490413296" expanded="true" signature="36:118" ph="{...}" />
+            <marker date="1579490413296" expanded="true" signature="95:116" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.DataAccess/Repository/RoleRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1579490529842" expanded="true" signature="74:247" ph="{...}" />
+            <marker date="1579490529842" expanded="true" signature="144:245" ph="{...}" />
+            <marker date="1579490529842" expanded="true" signature="219:239" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Service/Service/IBaseService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <marker date="1580869049172" expanded="true" signature="30:89" ph="{...}" />
+            <marker date="1580869049172" expanded="true" signature="66:87" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Web/Views/_ViewStart.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <marker date="1580868787972" expanded="true" signature="0:33" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.DataAccess/UoW/IUnitofWork.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <marker date="1579491876152" expanded="false" signature="6:63" ph="..." />
+            <marker date="1579491876152" expanded="true" signature="94:490" ph="{...}" />
+            <marker date="1579491876152" expanded="true" signature="101:164" ph="/// unit of work interface ... " />
+            <marker date="1579491876152" expanded="true" signature="197:488" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.DataAccess/UoW/UnitofWork.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1580781970792" expanded="false" signature="6:63" ph="..." />
+            <marker date="1580781970792" expanded="true" signature="94:1799" ph="{...}" />
+            <marker date="1580781970792" expanded="true" signature="101:154" ph="/// Unit of work ... " />
+            <marker date="1580781970792" expanded="true" signature="196:1797" ph="{...}" />
+            <marker date="1580781970792" expanded="true" signature="564:624" ph="{...}" />
+            <marker date="1580781970792" expanded="true" signature="679:857" ph="{...}" />
+            <marker date="1580781970792" expanded="true" signature="705:847" ph="{...}" />
+            <marker date="1580781970792" expanded="true" signature="913:1091" ph="{...}" />
+            <marker date="1580781970792" expanded="true" signature="939:1081" ph="{...}" />
+            <marker date="1580781970792" expanded="true" signature="1154:1344" ph="{...}" />
+            <marker date="1580781970792" expanded="true" signature="1180:1334" ph="{...}" />
+            <marker date="1580781970792" expanded="true" signature="1405:1592" ph="{...}" />
+            <marker date="1580781970792" expanded="true" signature="1431:1582" ph="{...}" />
+            <marker date="1580781970792" expanded="true" signature="1620:1680" ph="{...}" />
+            <marker date="1580781970792" expanded="true" signature="1719:1791" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.DataAccess/Repository/IRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="41" column="64" selection-start-line="10" selection-start-column="8" selection-end-line="41" selection-end-column="64" />
+          <folding>
+            <marker date="1579490096031" expanded="false" signature="6:127" ph="..." />
+            <marker date="1579490096031" expanded="true" signature="165:1138" ph="{...}" />
+            <marker date="1579490096031" expanded="true" signature="219:1136" ph="{...}" />
+            <marker date="1579490096031" expanded="true" signature="234:328" ph="/// region method ... " />
+            <marker date="1579490096031" expanded="true" signature="838:987" ph="/// region async method ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp.Service/BaseService/IBaseService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="8" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+          <folding>
+            <marker date="1580869707907" expanded="true" signature="6:127" ph="..." />
+            <marker date="1580869707907" expanded="true" signature="163:1249" ph="{...}" />
+            <marker date="1580869707907" expanded="true" signature="170:277" ph="/// Interface of base service ... " />
+            <marker date="1580869707907" expanded="true" signature="330:1247" ph="{...}" />
+            <marker date="1580869707907" expanded="true" signature="345:439" ph="/// region method ... " />
+            <marker date="1580869707907" expanded="true" signature="949:1098" ph="/// region async method ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
